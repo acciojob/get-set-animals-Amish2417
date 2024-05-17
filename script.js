@@ -3,23 +3,23 @@ class Animal {
 	constructor (species){
 		this._species = species;
 	}
-	get getspecies() {
+	get species() {
        return this._species;
     }
-	function makeSound(){
+	 makeSound(){
 		console.log(`${this._species} makes a sound`);
 	}
 	
 }
 
 class Dog extends Animal {
-	function bark(){
+	 bark(){
 		console.log("woof");
 	}
 }
 
 class Cat extends Animal {
-	function purr(){
+	 purr(){
 		console.log("purr");
 	}
 	
